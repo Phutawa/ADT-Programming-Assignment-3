@@ -14,7 +14,7 @@ public class Main {
         String fileName;
 
         if (args.length < 1) {
-            System.out.print("Enter input file name: ");
+            System.out.print("Enter input file name : ");
             fileName = userInput.nextLine().trim();
         } else {
             fileName = args[0];
